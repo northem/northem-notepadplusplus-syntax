@@ -22,6 +22,7 @@ A north-bluish dark theme based on the same named color palette "Northem".
   (2) Languages
     (2.0) Bash
     (2.1) Batch
+    (2.2) CSS
 
 [Variations]
   - "Northem Dark - Notepad++ Syntax"  (https://github.com/arcticicestudio/northem-dark-notepadplusplus-syntax)
@@ -204,5 +205,27 @@ Glacier - Git
         <WordsStyle name="OPERATOR" styleID="7" fgColor="88B2CD" bgColor="333334" fontStyle="0"/>
       </LexerType>
 <!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [2.1]-+ -->
+
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - +
+     + Languages - CSS                                                      [2.2] +
+     +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - + -->
+      <LexerType name="css" desc="CSS" ext="">
+        <WordsStyle name="DEFAULT" styleID="0" fgColor="ECEEEF" bgColor="333334" fontStyle="0"/>
+        <WordsStyle name="TAG" styleID="1" fgColor="90CDC7" bgColor="333334" fontStyle="0"/>
+        <WordsStyle name="CLASS" styleID="2" fgColor="90CDC7" bgColor="333334" fontStyle="0"/>
+        <WordsStyle name="PSEUDOCLASS" styleID="3" fgColor="FCCE85" bgColor="333334" fontStyle="2"/>
+        <WordsStyle name="UNKNOWN_PSEUDOCLASS" styleID="4" fgColor="DF7574" bgColor="333334" fontStyle="0"/>
+        <WordsStyle name="OPERATOR" styleID="5" fgColor="ECEEEF" bgColor="333334" fontStyle="0"/>
+        <WordsStyle name="IDENTIFIER" styleID="6" fgColor="88B2CD" bgColor="333334" fontStyle="0" keywordClass="instre1"/>
+        <WordsStyle name="UNKNOWN_IDENTIFIER" styleID="7" fgColor="DF7574" bgColor="333334" fontStyle="0" strikethrough="1"/>
+        <WordsStyle name="VALUE" styleID="8" fgColor="ECEEEF" bgColor="333334" fontStyle="0"/>
+        <WordsStyle name="COMMENT" styleID="9" fgColor="606062" bgColor="333334" fontStyle="0"/>
+        <WordsStyle name="ID" styleID="10" fgColor="90CDC7" bgColor="333334" fontStyle="0"/>
+        <WordsStyle name="IMPORTANT" styleID="11" fgColor="FCCE85" bgColor="333334" fontStyle="1"/>
+        <WordsStyle name="DIRECTIVE" styleID="12" fgColor="90CDC7" bgColor="333334" fontStyle="0"/>
+        <WordsStyle name="DOUBLESTRING" styleID="13" fgColor="DEDEDE" bgColor="333334" fontStyle="0"/>
+        <WordsStyle name="SINGLESTRING" styleID="14" fgColor="DEDEDE" bgColor="333334" fontStyle="0"/>
+      </LexerType>
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [2.2]-+ -->
 <!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [2]-+ -->
 </NotepadPlus>
