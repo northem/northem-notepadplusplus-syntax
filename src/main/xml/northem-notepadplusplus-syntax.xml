@@ -25,6 +25,7 @@ A north-bluish dark theme based on the same named color palette "Northem".
     (2.2) CSS
     (2.3) diff
     (2.4) HTML
+    (2.5) Initializations
 
 [Variations]
   - "Northem Dark - Notepad++ Syntax"  (https://github.com/arcticicestudio/northem-dark-notepadplusplus-syntax)
@@ -264,5 +265,17 @@ Glacier - Git
         <WordsStyle name="ENTITY" styleID="10" fgColor="FCCE85" bgColor="333334" fontStyle="0"/>
       </LexerType>
 <!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [2.4]-+ -->
+
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - +
+     + Languages - Initializations                                          [2.5] +
+     +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - + -->
+      <LexerType name="ini" desc="Initialization file" ext="ini inf reg url">
+        <WordsStyle name="DEFAULT" styleID="0" fgColor="ECEEEF" bgColor="333334" fontStyle="0"/>
+        <WordsStyle name="COMMENT" styleID="1" fgColor="606062" bgColor="333334" fontStyle="0"/>
+        <WordsStyle name="SECTION" styleID="2" fgColor="88B2CD" bgColor="333334" fontStyle="1"/>
+        <WordsStyle name="ASSIGNMENT" styleID="3" fgColor="88B2CD" bgColor="333334" fontStyle="0"/>
+        <WordsStyle name="DEFVAL" styleID="4" fgColor="88B2CD" bgColor="333334" fontStyle="0"/>
+      </LexerType>
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [2.5]-+ -->
 <!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [2]-+ -->
 </NotepadPlus>
