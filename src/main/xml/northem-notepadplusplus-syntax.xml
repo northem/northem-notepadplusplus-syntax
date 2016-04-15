@@ -29,6 +29,7 @@ A north-bluish dark theme based on the same named color palette "Northem".
     (2.6) Java
     (2.7) JavaScript
     (2.8) PHP
+    (2.9) Properties
 
 [Variations]
   - "Northem Dark - Notepad++ Syntax"  (https://github.com/arcticicestudio/northem-dark-notepadplusplus-syntax)
@@ -342,5 +343,17 @@ Glacier - Git
         <WordsStyle name="OPERATOR" styleID="127" fgColor="88B2CD" bgColor="333334" fontStyle="0"/>
       </LexerType>
 <!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [2.8]-+ -->
+
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - +
+     + Languages - Properties                                               [2.9] +
+     +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - + -->
+      <LexerType name="props" desc="Properties file" ext="properties">
+        <WordsStyle name="DEFAULT" styleID="0" fgColor="ECEEEF" bgColor="333334" fontStyle="0"/>
+        <WordsStyle name="COMMENT" styleID="1" fgColor="606062" bgColor="333334" fontStyle="0"/>
+        <WordsStyle name="SECTION" styleID="2" fgColor="88B2CD" bgColor="333334" fontStyle="1"/>
+        <WordsStyle name="ASSIGNMENT" styleID="3" fgColor="88B2CD" bgColor="333334" fontStyle="0"/>
+        <WordsStyle name="DEFVAL" styleID="4" fgColor="ECEEEF" bgColor="333334" fontStyle="0"/>
+      </LexerType>
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [2.9]-+ -->
 <!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [2]-+ -->
 </NotepadPlus>
