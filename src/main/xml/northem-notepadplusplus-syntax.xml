@@ -16,6 +16,10 @@ modified  2016-04-15 10:35 UTC+0200          +
 [Description]
 A north-bluish dark theme based on the same named color palette "Northem".
 
+[Index]
+  (1) Settings
+    (1.0) Global Styles
+
 [Variations]
   - "Northem Dark - Notepad++ Syntax"  (https://github.com/arcticicestudio/northem-dark-notepadplusplus-syntax)
   - "Northem Light - Notepad++ Syntax" (https://github.com/arcticicestudio/northem-light-notepadplusplus-syntax)
@@ -118,4 +122,43 @@ gitflow
 Glacier - Git
   (https://github.com/arcticicestudio/glacier-git)
 -->
-<NotepadPlus></NotepadPlus>
+<NotepadPlus>
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - +
+     + Settings                                                               [1] +
+     +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - + -->
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - +
+     + Settings - Global Styles                                             [1.0] +
+     +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - + -->
+  <GlobalStyles>
+    <WidgetStyle name="Global override" styleID="0" fgColor="ECEEEF" bgColor="333334" fontName="Source Code Pro" fontStyle="0" fontSize="16"/>
+    <WidgetStyle name="Default Style" styleID="32" fgColor="ECEEEF" bgColor="333334" fontName="Source Code Pro" fontStyle="0" fontSize="16"/>
+    <WidgetStyle name="Indent guideline style" styleID="37" fgColor="383839" bgColor="333334" fontStyle="0"/>
+    <WidgetStyle name="Brace highlight style" styleID="34" fgColor="ECEEEF" bgColor="86C1D2" fontStyle="0"/>
+    <WidgetStyle name="Bad brace colour" styleID="35" fgColor="ECEEEF" bgColor="DF7574" fontStyle="0"/>
+    <WidgetStyle name="Current line background colour" styleID="0" bgColor="383839" fgColor="ECEEEF" fontStyle="0"/>
+    <WidgetStyle name="Selected text colour" styleID="0" bgColor="5C81AE" fgColor="ECEEEF" fontStyle="0"/>
+    <WidgetStyle name="Caret colour" styleID="2069" fgColor="ECEEEF" bgColor="333334" fontStyle="0"/>
+    <WidgetStyle name="Edge colour" styleID="0" fgColor="606062" bgColor="333334" fontStyle="0"/>
+    <WidgetStyle name="Line number margin" styleID="33" fgColor="606062" bgColor="2D2D2E" fontStyle="0"/>
+    <WidgetStyle name="Fold" styleID="0" fgColor="606062" bgColor="333334" fontStyle="0"/>
+    <WidgetStyle name="Fold active" styleID="0" fgColor="5C81AE" bgColor="2D2D2E" fontSize="8" fontStyle="0"/>
+    <WidgetStyle name="Fold margin" styleID="0" fgColor="2D2D2E" bgColor="2D2D2E" fontStyle="0"/>
+    <WidgetStyle name="White space symbol" styleID="0" fgColor="606062" bgColor="333334" fontStyle="0"/>
+    <WidgetStyle name="Smart HighLighting" styleID="29" bgColor="5C81AE" fgColor="ECEEEF" fontStyle="0"/>
+    <WidgetStyle name="Find Mark Style" styleID="31" bgColor="5C81AE" fgColor="555753" fontSize="10" fontStyle="0"/>
+    <WidgetStyle name="Mark Style 1" styleID="25" bgColor="5C81AE" fontStyle="0" fgColor="ECEEEF" fontSize="10"/>
+    <WidgetStyle name="Mark Style 2" styleID="24" bgColor="5C81AE" fontStyle="0" fgColor="ECEEEF"/>
+    <WidgetStyle name="Mark Style 3" styleID="23" bgColor="5C81AE" fontStyle="0" fgColor="ECEEEF"/>
+    <WidgetStyle name="Mark Style 4" styleID="22" bgColor="5C81AE" fontStyle="0" fgColor="ECEEEF" fontSize="10"/>
+    <WidgetStyle name="Mark Style 5" styleID="21" bgColor="5C81AE" fontStyle="0" fgColor="ECEEEF"/>
+    <WidgetStyle name="Incremental highlight all" styleID="28" bgColor="5C81AE" fgColor="ECEEEF" fontStyle="0"/>
+    <WidgetStyle name="Tags match highlighting" styleID="27" bgColor="5C81AE" fgColor="ECEEEF" fontStyle="0"/>
+    <WidgetStyle name="Tags attribute" styleID="26" bgColor="5C81AE" fgColor="ECEEEF" fontStyle="0"/>
+    <WidgetStyle name="Active tab focused indicator" styleID="0" fgColor="88B2CD" bgColor="2D2D2E" fontStyle="0"/>
+    <WidgetStyle name="Active tab unfocused indicator" styleID="0" fgColor="2D2D2E" bgColor="2D2D2E" fontStyle="0"/>
+    <WidgetStyle name="Active tab text" styleID="0" fgColor="2D2D2E" bgColor="ECEEEF" fontStyle="0"/>
+    <WidgetStyle name="Inactive tabs" styleID="0" fgColor="ECEEEF" bgColor="2D2D2E" fontStyle="0"/>
+    </GlobalStyles>
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [1.0]-+ -->
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [1]-+ -->
+</NotepadPlus>
