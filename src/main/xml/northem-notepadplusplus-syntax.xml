@@ -26,6 +26,7 @@ A north-bluish dark theme based on the same named color palette "Northem".
     (2.3) diff
     (2.4) HTML
     (2.5) Initializations
+    (2.6) Java
 
 [Variations]
   - "Northem Dark - Notepad++ Syntax"  (https://github.com/arcticicestudio/northem-dark-notepadplusplus-syntax)
@@ -277,5 +278,28 @@ Glacier - Git
         <WordsStyle name="DEFVAL" styleID="4" fgColor="88B2CD" bgColor="333334" fontStyle="0"/>
       </LexerType>
 <!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [2.5]-+ -->
+
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - +
+     + Languages - Java                                                     [2.6] +
+     +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - + -->
+      <LexerType name="java" desc="Java" ext="java">
+        <WordsStyle name="PREPROCESSOR" styleID="9" fgColor="5C81AE" bgColor="333334" fontStyle="0"/>
+        <WordsStyle name="DEFAULT" styleID="11" fgColor="ECEEEF" bgColor="333334" fontStyle="0"/>
+        <WordsStyle name="INSTRUCTION WORD" styleID="5" fgColor="88B2CD" bgColor="333334" fontStyle="0" keywordClass="instre1"/>
+        <WordsStyle name="TYPE WORD" styleID="16" fgColor="88B2CD" bgColor="333334" fontStyle="0" keywordClass="type1"/>
+        <WordsStyle name="NUMBER" styleID="4" fgColor="C2A2C9" bgColor="333334" fontStyle="0"/>
+        <WordsStyle name="STRING" styleID="6" fgColor="DEDEDE" bgColor="333334" fontStyle="0"/>
+        <WordsStyle name="CHARACTER" styleID="7" fgColor="DEDEDE" bgColor="333334" fontStyle="0"/>
+        <WordsStyle name="OPERATOR" styleID="10" fgColor="88B2CD" bgColor="333334" fontStyle="0"/>
+        <WordsStyle name="VERBATIM" styleID="13" fgColor="FCCE85" bgColor="333334" fontStyle="0"/>
+        <WordsStyle name="REGEX" styleID="14" fgColor="FCCE85" bgColor="333334" fontStyle="0"/>
+        <WordsStyle name="COMMENT" styleID="1" fgColor="606062" bgColor="333334" fontStyle="0"/>
+        <WordsStyle name="COMMENT LINE" styleID="2" fgColor="606062" bgColor="333334" fontStyle="0"/>
+        <WordsStyle name="COMMENT DOC" styleID="3" fgColor="606062" bgColor="333334" fontStyle="0"/>
+        <WordsStyle name="COMMENT LINE DOC" styleID="15" fgColor="606062" bgColor="333334" fontStyle="0"/>
+        <WordsStyle name="COMMENT DOC KEYWORD" styleID="17" fgColor="5C81AE" bgColor="333334" fontStyle="0"/>
+        <WordsStyle name="COMMENT DOC KEYWORD ERROR" styleID="18" fgColor="DF7574" bgColor="333334" fontStyle="0"/>
+      </LexerType>
+<!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [2.6]-+ -->
 <!-- +- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [2]-+ -->
 </NotepadPlus>
